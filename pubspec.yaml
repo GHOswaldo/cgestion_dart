@@ -1,0 +1,42 @@
+name: gestor_alacena
+description: "Aplicación para gestionar el inventario de alacena familiar."
+publish_to: 'none'
+version: 1.0.0
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.2.2
+  # Supabase
+  supabase_flutter: ^2.3.4 
+  # Google Sign In
+  google_sign_in: ^6.2.1
+  # State Management
+  provider: ^6.1.1
+  # Scanner
+  mobile_scanner: ^3.5.6 
+  # Charts
+  fl_chart: ^0.66.0  
+  # UI
+  cupertino_icons: ^1.0.6
+  intl: ^0.19.0
+  # Images
+  cached_network_image: ^3.3.1
+  image_picker: ^1.0.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.11.0
+  flutter_app_name: ^0.1.1
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/icons/
